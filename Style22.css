@@ -1,11 +1,11 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f5f7fa; /* Fondo claro y moderno */
+  background: #060505; /* Fondo negro-gris oscuro */
   display: flex;
   justify-content: center;
   padding: 20px;
-  color: #1c1f26; /* Texto oscuro para contraste */
+  color: #f1f1f1; /* Texto claro */
 }
 
 .card-container {
@@ -18,28 +18,30 @@ body {
 
 /* Tarjeta individual */
 .card {
-  background: #ffffff; /* Fondo blanco */
+  background: #016562; /* Morado oscuro / gris púrpura */
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 20px;
   width: 300px;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
   transform: scale(1.03);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(0, 255, 255, 0.2); /* Resplandor cian */
 }
 
 .card img {
   border-radius: 50%;
   width: 150px;
-  border: 3px solid #ccc; /* Borde gris claro */
+  border: 3px solid #00bcd4; /* Cian brillante */
+  object-fit: cover;
 }
 
 .card button {
-  background: #007bff; /* Azul elegante */
+  background: #ff6f00; /* Naranja fuerte */
   color: white;
   border: none;
   padding: 10px 15px;
@@ -50,7 +52,7 @@ body {
 }
 
 .card button:hover {
-  background: #0056b3;
+  background: #e65100;
 }
 
 /* Responsive para tablets */
